@@ -61,6 +61,7 @@
     this.classList.toggle('bi-x')
   })
 
+
   /**
    * Mobile nav dropdowns activate
    */
@@ -70,9 +71,7 @@
       this.nextElementSibling.classList.toggle('dropdown-active')
     }
   }, true)
-
   
-
   /**
    * Animation on scroll
    */
@@ -86,8 +85,6 @@
   });
 
 })()
-
-
 
 
   /**
@@ -112,4 +109,6 @@
 
 
  
+
+
 
