@@ -17,9 +17,12 @@
 <body>
     <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-6 col-md-6 intro-section">
+            <div class="col-sm-6 col-md-6 intro-section ">
               <div class="brand-wrapper">
-                <!-- <img src="assets/img/Logo.png" alt="" class="img-fluid"> -->
+                <!-- <img src="assets/img/login-gif.gif" alt="" width="100%" height="500px"> -->
+                 <!-- <video controls>
+                  <source src="assets/img/login-video.mp4" type="video/mp4">
+                 </video> -->
               </div>
               <div class="intro-content-wrapper">
                 <!-- <h1 class="intro-title">Welcome to website !</h1> -->
@@ -27,7 +30,7 @@
                   incididunt ut labore et dolore magna</p> -->
               </div>
             </div>
-            <div class="col-sm-6 col-md-5 form-section">
+            <div class="col-sm-6 col-md-6 form-section">
               <div class="login-wrapper">
                 <h2 class="login-title">Sign in</h2>
                 <form action="#!">
@@ -67,12 +70,13 @@
               }
               
               .intro-section {
-                background-image: url(assets/img/login-bg.jpg);
+                background-image: url(assets/img/login-gif.gif);
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
-                padding: 75px 95px;
                 min-height: 100vh;
+                align-items: center;
+                justify-content: center;
                 display: -webkit-box;
                 display: flex;
                 -webkit-box-orient: vertical;
@@ -147,7 +151,7 @@
                     padding: 35px; } }
               
               .login-wrapper {
-                width: 300px;
+                width: 500px;
                 max-width: 100%; }
                 @media (max-width: 575px) {
                   .login-wrapper {
